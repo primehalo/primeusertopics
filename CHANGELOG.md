@@ -12,10 +12,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 - Updated for phpBB 3.2
 - Combined the JavaScript into a single HTML file: overall_footer_after.html
-- Use JQuery to simplify the JavaScript
+- Used JQuery to simplify the JavaScript
 - Changed the styles subfolder from 'all' to 'prosilver'
 - Changed the wording "Search your topics" to "Show your topics" to keep it consistent with phpBB 3.2's wording
-- Use service containers instead of global variables in the listener.php file
+- Used service containers instead of global variables in the listener.php file
 
 ### Removed
 - The three HTML files that previously held the needed JavaScript code: memberlist_view_user_statistics_after.html, navbar_header_quick_links_after.html, overall_footer_content_after.html
