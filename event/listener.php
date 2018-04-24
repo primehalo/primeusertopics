@@ -23,8 +23,8 @@ class listener implements EventSubscriberInterface
 	protected $auth;
 	protected $template;
 	protected $user;
-	protected $board_url;
 	protected $root_path;
+	protected $php_ext;
 
 	/**
 	* Constructor
