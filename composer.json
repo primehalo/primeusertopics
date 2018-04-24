@@ -21,6 +21,12 @@
 		"display-name": "Prime User Topics",
 		"soft-require": {
 			"phpbb/phpbb": ">=3.1.0,<3.3.0@dev"
+		},
+		"version-check": {
+		    "host": "www.absoluteanime.com",
+			"directory": "/_phpbb-extensions_/versioncheck",
+			"filename": "primeusertopics.json",
+			"ssl": true
 		}
 	}
 }

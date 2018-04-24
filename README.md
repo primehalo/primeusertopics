@@ -2,7 +2,7 @@
 
 ## Synopsis
 
- A phpBB3.2 extension that adds a link to search user's topics next to the "Search user's posts" link on the user profile page. Also adds links to search your own topics on the UCP overview page and in the quick links of the page header.
+A phpBB3.2 extension that adds a link to search user's topics next to the "Search user's posts" link on the user profile page. Also adds links to search your own topics on the UCP overview page and in the quick links of the page header.
 
 ## Installation
 
