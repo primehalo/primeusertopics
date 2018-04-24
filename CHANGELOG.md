@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2018-04-24
+### Changed
+- Updated the JQuery code to make the extension backwards compatible with phpBB 3.1's prosilver style
+
 ## [1.1.0] - 2018-04-23
 ### Added
 - CHANGELOG.md, license.txt, and README.md files

@@ -4,8 +4,13 @@ var uSearchUser = $('<textarea />').html('{U_SEARCH_USER}').val(); // Changes &a
 {% if U_SEARCH_SELF_TOPICS %}
 
 // Add "Your Topics" to the navigation Quick Links
-var $li = $('#quick-links li a[href="{U_SEARCH_SELF}"]').closest('li');
-$li.after('<li><a href="{U_SEARCH_SELF_TOPICS}" role="menutiem">' + $li.find('i')[0].outerHTML + '<span>{L_PRIMEUSERTOPICS_SEARCH_SELF_TOPICS}</span></a></li>');
+$('#quick-links li a[href="{U_SEARCH_SELF}"]').closest('li').after(function() {
+	var $li	= $(this).clone();
+	var $a	= $li.find('a').attr('href', "{U_SEARCH_SELF_TOPICS}");
+	var $in	= $a.find('span').length ? $a.find('span') : $a;	// phpBb3.2 has a span, phpBB3.1 does not
+	$in.html("{L_PRIMEUSERTOPICS_SEARCH_SELF_TOPICS}");
+	return $li;
+});
 
 // Add "Show your topics" to the front page of the UCP
 $('#cp-main a[href="' + uSearchUser + '"]').closest('strong').after(' | <strong><a href="{U_SEARCH_SELF_TOPICS}">{L_PRIMEUSERTOPICS_SEARCH_YOUR_TOPICS}</a></strong>');
