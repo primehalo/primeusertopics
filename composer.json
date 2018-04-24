@@ -2,7 +2,7 @@
 	"name": "primehalo/primeusertopics",
 	"type": "phpbb-extension",
 	"description": "Adds a link to search user's topics next to the \"Search user's posts\" link on the user profile page. Also adds links to search your own topics on the UCP overview page and in the quick links of the page header.",
-	"homepage": "http://www.absoluteanime.com/admin/mods.htm",
+	"homepage": "https://github.com/primehalo/primeusertopics",
 	"version": "1.1.0",
 	"time": "2014-12-15",
 	"license": "GPL-2.0",
