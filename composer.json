@@ -3,8 +3,8 @@
 	"type": "phpbb-extension",
 	"description": "Adds a link to search user's topics next to the “Search user's posts” link on the user profile page. Also adds links to search your own topics on the UCP overview page and in the quick links of the page header.",
 	"homepage": "https://github.com/primehalo/primeusertopics",
-	"version": "1.1.4",
-	"time": "2020-05-29",
+	"version": "1.1.5",
+	"time": "2020-07-07",
 	"license": "GPL-2.0-only",
 	"authors": [
 		{
@@ -20,7 +20,7 @@
 	"extra": {
 		"display-name": "Prime User Topics",
 		"soft-require": {
-			"phpbb/phpbb": ">=3.1.0,<3.3.0@dev"
+			"phpbb/phpbb": ">=3.1.0"
 		},
 		"version-check": {
 		    "host": "www.absoluteanime.com",

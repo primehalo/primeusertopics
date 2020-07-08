@@ -94,7 +94,7 @@ class listener implements EventSubscriberInterface
 		if ($user_id != ANONYMOUS)
 		{
 			$this->user->add_lang_ext('primehalo/primeusertopics', 'primeusertopics');
-			$this->template->assign_var('U_SEARCH_SELF_TOPICS',	 append_sid("{$this->root_path}search.{$this->php_ext}", "author_id=$user_id&amp;sr=topics&amp;sf=firstpost"));
+			$this->template->assign_var('U_SEARCH_SELF_TOPICS',	 append_sid("{$this->root_path}search.{$this->php_ext}", "author_id=$user_id&sr=topics&sf=firstpost"));
 		}
 	}
 }
